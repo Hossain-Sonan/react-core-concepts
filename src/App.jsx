@@ -1,6 +1,13 @@
 
 import './App.css'
+
 import Counter from './Counter'
+import Team from './team'
+import Clients from './Clients'
+import Friends from './Friends'
+
+
+
 
 
 function App() {
@@ -19,6 +26,12 @@ function App() {
     <>
       
       <h3>React core concepts</h3>
+      <Friends></Friends>
+      <Clients></Clients>
+     
+      
+      
+        <Team></Team>
        
        <Counter></Counter>
       
